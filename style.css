@@ -1,5 +1,5 @@
 * {
-    font-family: arial,sans-serif;
+    font-family: arial,sans-serif; /* Applying arial as the universal font, with sans-serif as the alternative */
 }
 
 
@@ -7,21 +7,22 @@
     display: block;
     margin: 198px auto 0px auto;
 }
-
+/*Styles for the unordered lists that are used by the nav bars */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
+    list-style-type: none; /* Removing the bullet points from the lists */
+    margin: 0; /* Removing default margin applied by the browser */
+    padding: 0; /* Removing default padding applied by the browser */
+    font-size: 12.5px; /* Applying a default font size to the lists */
     
   }
 
-  a {
-      text-decoration: none;
-      color: inherit;
+
+  a { /* Setting styles for the a html elements */
+      text-decoration: none; /* Removing the underling and hyperlinking of the elements of a, which are in each ul */
+      color: inherit; /* Removes the blue font color from each a element by inheriting the parent color */
   }
 
-  li {
+  li  {
       display: inline;
       padding-right: 12.5px;
       
@@ -29,22 +30,58 @@ ul {
 
   #top-left-nav-bar {
       margin-top: -395px;
-      margin-left: 20px;
+      margin-left: 20px;      
      
   }
 
   #top-right-nav-bar {
-    margin-left: 1600px;
+    margin-left: 1575px;
     margin-top: -20px;
+    min-width: 225px; 
     
 }
 
+  #bottom-left-nav-bar {
+    margin-top: 535px;
+    margin-left: 20px;
+    font-size: 14px;
+   
+
+  }
+#Advertising {
+    padding-right: 10px;
+}
+
+#Business {
+    padding-right: 10px;  
+}
+
+  #bottom-right-nav-bar {
+    margin-top: -16.5px;
+    margin-left: 1600px;
+    font-size: 14px;
+  }
+
+  #Privacy {
+      padding-right: 10px;
+  }
+
+  #Terms {
+    padding-right: 10px;
+}
+
+
 
 #sign-in-button {
+    position: relative;
     background-color: #4485F4;
     color: #FFFFFF;
-    font-size: 11px;
-    padding: 5px 10px 5px 10px;
+    font-size: 12.5px;
+    left: 30px;
+    padding: 7.5px 12.5px 5px 12.5px;
+    font-weight: bold;
+    
+ 
 }
 
 #searchbar {
@@ -84,6 +121,15 @@ ul {
     
 }
 
+#nine-dots-apps-icon {
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 25px;
+    height: 25px;
+    top: 17.5px;
+}
+
 #magnifying-glass {
     display: block;
     position: relative;
@@ -94,6 +140,22 @@ ul {
     filter: grayscale(100%);
      
 }
+
+.rectangle {
+    position: fixed;
+    height: 22px;
+    width: 2000px;
+    background-color: rgba(242, 242, 242, 0.5);
+    right: 1px;
+    bottom: 0px;
+    padding: 20px 0px 0px 0px;
+
+    
+  }
+
+
+
+
 
 
 p {
