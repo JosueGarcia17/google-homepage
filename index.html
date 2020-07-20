@@ -1,36 +1,41 @@
-<main>
+<main> 
     <head> 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css"> <!-- Added the external CSS styling to the file-->
 
     
     
     </head>
         <body>
-            <div> 
+            <div> <!-- Div element for the central elements such as the google logo, the searchbar, and the two buttons-->
                 <img id="google-logo" class="center" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-                    alt="Multi-colored text that reads Google, the logo of Google"></img>
-                <input type="text"  id="searchbar" ></input>
-                <button id="google-search-button">Google Search</button>
-                <img src="https://image.flaticon.com/icons/svg/49/49116.svg" id="magnifying-glass"> </img>
-            </div>
+                    alt="Multi-colored text that reads Google, the logo of Google"></img> <!-- Added the central Google logo-->
+                <input type="text"  id="searchbar" ></input> <!-- Added the searchbar that users may type into to search something-->
+                <div class="searchbar"></div> <!-- Added the oval that resembles the google searchbar to host the inner search bar-->
 
-            <div> 
-                <button id="feeling-lucky-button">I'm Feeling Lucky</button>
+                <button id="google-search-button">Google Search</button> <!-- Added the left button that is labeled "Google Search-->
+                
+                <img src="https://image.flaticon.com/icons/svg/49/49116.svg" alt="Icon of a magnifying glass that is on the left edge of the search bar" 
+                id="magnifying-glass"> </img> <!-- Added the magnifying glass that is shown -->
+                <button id="feeling-lucky-button">I'm Feeling Lucky</button> <!-- Added the "I'm Feeling Lucky" Button-->
+            </div> <!-- Closing tag of the central elements-->
 
-                <ul id="top-left-nav-bar">
-                    <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-                    <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+            <div> <!-- Div element for the top nav bars-->
+                
+
+                <ul id="top-left-nav-bar"> <!-- Unordered List element for the top-left-nav-bar-->
+                    <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li> <!-- List item for the "About" element with the respective link-->
+                    <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li> <!-- List item for the "Store" element with the respective link-->
                     
                 
                   
-                  <ul id="top-right-nav-bar">
+                  <ul id="top-right-nav-bar"> <!-- Unordered List element for the top-right-nav-bar-->
                     <li><a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a></li>
-                    <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-                    <li><img src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png" id="nine-dots-apps-icon">  </li>
+                    <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li> <!-- List item for the "Images" element with the respective link-->
+                    <li><img src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png" alt="A 3x3-sized cube consisting of 9 individual squares"id="nine-dots-apps-icon">  </li> <!-- ADded the nine-dots-app-icon at the top right-->
                     <li> <a href="https://accounts.google.com/signin/v2/identifier?hl=en
                         &passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=
-                        GlifWebSignIn&flowEntry=ServiceLogin"><button id="sign-in-button">Sign in</button> </a></li>
-                  </ul> 
+                        GlifWebSignIn&flowEntry=ServiceLogin"><button id="sign-in-button">Sign in</button> </a></li> <!-- List item for the "Sign in" element with the respective link-->
+                  </ul> <!-- Closing tag for the unordered list-->
 
 
 
@@ -38,33 +43,34 @@
 
 
 
-            </div>
+            </div> <!-- Closing div element for the bottom nav bars-->
 
-            <ul id="bottom-left-nav-bar">
+            <ul id="bottom-left-nav-bar"> <!-- Unordered List element for the bottom-left-nav-bar-->
                 <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!
-                    o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" id="Advertising">Advertising</a></li>
+                    o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" id="Advertising">Advertising</a></li> <!-- List item for the "Advertsing" element with the respective link-->
                 <li><a href="https://smallbusiness.withgoogle.com/help/?subid=us-en-et-g-awa-a-g_hpbfoot1_
                     1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_h
-                    pbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u" id="Business">Business</a></li>
-                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
-                <div class="rectangle"></div>
+                    pbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u" id="Business">Business</a></li> <!-- List item for the "Business" element with the respective link-->
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li> <!-- List item for the "How Search Works" element with the respective link-->
+                <div class="rectangle"></div> <!-- Added the rectangle that encompasses the bottom nav bar-->
+                
                 
                 
             
               
-              <ul id="bottom-right-nav-bar">
-                <li><Privacy href="https://policies.google.com/privacy?hl=en&fg=1" id="Privacy">Privacy</a></li>
-                <li><a href="https://policies.google.com/terms?hl=en&fg=1" id="Terms">Terms</a></li>
-                <li><a href="about.asp">Settings</a></li>
-              </ul> 
+              <ul id="bottom-right-nav-bar"> <!-- Unordered List element for the bottom-right-nav-bar-->
+                <li><Privacy href="https://policies.google.com/privacy?hl=en&fg=1" id="Privacy">Privacy</a></li> <!-- List item for the "Privacy" element with the respective link-->
+                <li><a href="https://policies.google.com/terms?hl=en&fg=1" id="Terms">Terms</a></li> <!-- List item for the "Terms" element with the respective link-->
+                <li><a href="about.asp">Settings</a></li> <!-- List item for the "Settings"-->
+              </ul> <!-- Closing tag for the unordered list of consisting of the bottom-right-nav-bar's elements-->
 
-            <div>
-
-
+            <div> <!-- Closing div tag for the bototm nav bars-->
 
 
 
-            </div>
+
+
+            </div> <!-- Closing div tag for the nav bars overall-->
 
             
 

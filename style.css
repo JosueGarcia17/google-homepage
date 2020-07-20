@@ -3,11 +3,11 @@
 }
 
 
-.center {
-    display: block;
-    margin: 198px auto 0px auto;
+.center { /* Class for centering html elements */
+    display: block; /* Set the display to block so that the margin could be applied to it */
+    margin: 198px auto 0px auto; /* Set the left and right margin to auto to center it horizontally on the webpage and the other values centered it vertically */
 }
-/*Styles for the unordered lists that are used by the nav bars */
+/* Styles for the unordered lists that are used by the nav bars */
 ul {
     list-style-type: none; /* Removing the bullet points from the lists */
     margin: 0; /* Removing default margin applied by the browser */
@@ -23,141 +23,147 @@ ul {
   }
 
   li  {
-      display: inline;
-      padding-right: 12.5px;
+      display: inline; /* Allows for the list elements to be aligned horizontally instead of vertically */
+      padding-right: 12.5px; /* Added the general padding on the right side as 12.5 px */
       
   }
 
-  #top-left-nav-bar {
-      margin-top: -395px;
-      margin-left: 20px;      
+  #top-left-nav-bar { /* Styles for the top-left-nav-bar that includes "About" and "Story" */
+      margin-top: -395px; /* Set the top margin for this nav bar as -395 px */
+      margin-left: 20px;  /* Set the left margin for this nav bar as 20 px */      
      
   }
 
-  #top-right-nav-bar {
-    margin-left: 1575px;
-    margin-top: -20px;
-    min-width: 225px; 
+  #top-right-nav-bar { /* Styles for the top-right-nav-bar */
+    margin-left: 1570px; /* Set the top-left margin as 1570 px */
+    margin-top: -23px; /* Set the top margin as -23px */
+    min-width: 225px;  /* Set the minimum width for the nav bar to have as 225px */
     
 }
 
-  #bottom-left-nav-bar {
-    margin-top: 535px;
-    margin-left: 20px;
-    font-size: 14px;
+  #bottom-left-nav-bar { /* Styles for the bottom-left-nav-bar */
+    margin-top: 867.5px; /* Set the top margin as 535 px */
+    margin-left: 20px; /* Set the left margin as 20 px */
+    font-size: 14px; /* Set the font size as 14px */
    
 
   }
-#Advertising {
-    padding-right: 10px;
+#Advertising { /* Set the styles for the "Advertising" element of the bottom-left-nav-bar */
+    padding-right: 10px; /* Added padding on the right of 10px */
 }
 
-#Business {
-    padding-right: 10px;  
+#Business { /* Styles for the "Business" element of the bottom-left-nav-bar */
+    padding-right: 10px;  /* Added padding on the right of 10px */
 }
 
-  #bottom-right-nav-bar {
-    margin-top: -16.5px;
-    margin-left: 1600px;
-    font-size: 14px;
+  #bottom-right-nav-bar { /* Set the styles for the bottom-right-nav-bar */
+    margin-top: -16.5px; /* Set the top margin as -16.5px */
+    margin-left: 1600px; /* Set the left maargin as 1600px */
+    font-size: 14px; /* Set the font-size as 14px */
   }
 
-  #Privacy {
-      padding-right: 10px;
+  #Privacy { /* Set the styles for the "Privacy" element of the bottom-right-nav-bar */
+      padding-right: 10px; /* Set the padding on the right to 10px */
   }
 
-  #Terms {
-    padding-right: 10px;
+  #Terms { /* Set the styles for the "Terms" element of the bottom-right-nav-bar */
+    padding-right: 10px; /* Set the padding on the right to 10 px */
 }
 
 
 
-#sign-in-button {
-    position: relative;
-    background-color: #4485F4;
-    color: #FFFFFF;
-    font-size: 12.5px;
-    left: 30px;
-    padding: 7.5px 12.5px 5px 12.5px;
-    font-weight: bold;
+#sign-in-button { /* Styles for the sign in button on the top right of the webpage */
+    position: relative; /* Set the position of the element to relative so that its position can be manipulated later */
+    background-color: #4485F4; /* Set the background color to #4485F4 */
+    color: #FFFFFF; /* Set the color of the font to pure white */
+    font-size: 12.5px; /* Set the font size of the text to 12.5px */
+    left: 30px; /* Set the left position value to 30px to space it correctly away from the apps icon */
+    padding: 7.5px 12.5px 5px 12.5px; /* Set the padding of the element to resemble the original google sign in button */
+    font-weight: bold; /* Made the text bold so that it stands out more */
     
  
 }
 
-#searchbar {
-    display: block;
-    margin: 2em auto 0px auto;
-    width: 585px;
-    height: 45px;
-    border: 1px solid rgb(211, 211, 211);
-    border-radius: 100px;
+#searchbar { /* Setting the styles for the search bar */
+    display: block; /* Sets the display to block so that it can be manipulated to resemble the original google searchbar */
+    margin: -3.2em auto 0px auto; /* Centered it with margin "auto" as the left and right values and the other values centered it vertically */
+    width: 530px; /* Set the width of the search bar to 585 px */
+    height: 45px; /* Set the height of the search baar to 45px */
+    border: 0px; /* Set the border to 0px */
+    background-color: rgba(242, 242, 242, 0); /* Set the background color to a dark grey */
+    position: relative; /* Sets the display to block so that it can be manipulated to resemble the original google searchbar */
+    top: 77px; /* Moved the searchbar down 77px */
+    left: 20px; /* Moved the searchbar 20px to the right */
+   
+   
+    
 }
-#feeling-lucky-button {
-    display: block;
-    margin: 2.45em auto 0px auto;
-    padding: 0.7em 0em 0.7em 0em;
-    width: 140px;
-    background-color: #f2f2f2;
-    position: relative;
-    left: 60px;
-    top: 9px;
-    border: 1px solid rgb(255, 249, 249);
-    border-radius: 5px;
-    font-size: 13px;
+.searchbar { /* Setting the styles for the search bar */
+    display: block; /* Sets the display to block so that it can be manipulated to resemble the original google searchbar */
+    margin: 2em auto 0px auto; /* Centered it with margin "auto" as the left and right values and the other values centered it vertically */
+    width: 585px; /* Set the width of the search bar to 585 px */
+    height: 45px; /* Set the height of the search baar to 45px */
+    border: 1px solid rgb(211, 211, 211); /* Set the border to 1px thickness, a solid border and with the light grey color */
+    border-radius: 100px; /* Border radius set to 100px to round out the corners of the search bar */
+}
+
+
+
+
+#feeling-lucky-button { /* Setting the styles of the feeling-lucky-button */
+    display: block; /* Setting the display to block to be able to manipulate it */
+    margin: 2.45em auto 0px auto; /* Set the margin of the button to center it horizontally and the other values assigned its appropriate positon */
+    padding: 0.7em 0em 0.7em 0em; /* Padding for the bottom and top extended by 0.7 em */
+    width: 140px; /* Set the width of the button to 140 px */
+    background-color: #f2f2f2; /* Set the color of it to the same a light gray */
+    position: relative; /* Set its position to relative so that it could be removed from the standard flow of the document */
+    left: 60px; /* Set its left position to 60px */
+    top: 9px; /* Set its top position to 9px */
+    border: 1px solid rgb(255, 249, 249); /* Set a border that is 1px thick, solid, and to a white color */
+    border-radius: 5px; /* Set the border radius to 5px to slighlty round out the corners */
+    font-size: 13px; /* Set the font size to 13px */
 }  
 
-#google-search-button {
-    display: block;
-    margin: 30px auto 0px auto;
-    padding: 0.7em 0em 0.7em 0em;
-    width: 122.5px;
-    background-color: #f2f2f2;
-    position: relative;
-    right: 90px;
-    bottom: 5px;
-    border: 1px solid rgb(255, 249, 249);
-    border-radius: 5px;
-    font-size: 13px;
+#google-search-button { /* Set the styles for the google-search-button */
+    display: block; /* Set the display to block so that it can be manipulated */
+    margin: 30px auto 0px auto; /* Set the margins on the side to auto to horizontally center it while the other two values assigned it to its required position */
+    padding: 0.7em 0em 0.7em 0em; /* Set the padding on the top and bottom to 0.7em while leaving the elft and right paddings as their default values */
+    width: 122.5px; /* Set the width to 122.5px */
+    background-color: #f2f2f2; /* Set the color of it to the same a light gray */
+    position: relative; /* Set its position to relative so that it could be removed from the standard flow of the document */
+    right: 82.5px; /* Set its right position to 60px to push it to the left*/
+    bottom: 5px; /* Set its bottom position to 60px to push it upwards*/
+    border: 1px solid rgb(255, 249, 249); /* Set a border that is 1px thick, solid, and to a white color */
+    border-radius: 5px; /* Set the border radius to 5px to slighlty round out the corners */
+    font-size: 13px; /* Set the font size to 13px */
     
 }
 
-#nine-dots-apps-icon {
-    position: absolute;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    width: 25px;
-    height: 25px;
-    top: 17.5px;
+#nine-dots-apps-icon { /* Set the styles for the nine-dots-apps-icon */
+    position: absolute; /* Set its position to absolute so that it can be manipulated */
+    width: 25px; /* Set the width to 25px */
+    height: 25px; /* Set the height to 25px */
+    top: 17.5px; /* Set the top position value to 17.5 px to push it downwards */
 }
 
-#magnifying-glass {
-    display: block;
-    position: relative;
-    margin: -95px auto 0px auto;
-    right: 270px;
-    bottom: 3px;
-    width: 13px;
-    filter: grayscale(100%);
+#magnifying-glass { /* Set the styles for the magnifying-glass icon */
+    display: block; /* Set the display to block to allow it to be manipulated */
+    position: relative; /* Set its position to relative so that it would be removed from the standard-document flow */
+    margin: -95px auto 0px auto; /* Set the margin to horizontally center it and the other values assigned it to its position */
+    right: 270px; /* Set its right position to 270px to move it to the left */
+    bottom: 3px; /* Set the bottom position value to 3px to move it to the right */
+    width: 13px; /* Set the width to 13px */
      
 }
 
-.rectangle {
-    position: fixed;
-    height: 22px;
-    width: 2000px;
-    background-color: rgba(242, 242, 242, 0.5);
-    right: 1px;
-    bottom: 0px;
-    padding: 20px 0px 0px 0px;
+.rectangle { /* Class used to make a rectangle that was used for the bottom nav bar's gray background line */
+    position: fixed; /* Set its position to fixed so that it could be "fixed" to the bottom of the page */
+    height: 22px; /* Set the height of the bottom bar to 22px */
+    width: 2000px; /* Set the width to 2000px to stretch it across the screen */
+    background-color: rgba(242, 242, 242, 0.5); /* Set the background color of the bar to a light grey */
+    right: 1px; /* Set the right position to 1px to fix it to the side of the webpage */
+    bottom: 0px; /* Set the bottom position to 0px to fix it at the bottom of the page */
+    padding: 20px 0px 0px 0px; /* Set the top padding to 20px to center the text in the middle of the bar */
 
-    
   }
 
-
-
-
-
-
-p {
-    color: red;
-}
